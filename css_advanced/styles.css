@@ -112,3 +112,46 @@ section {
     font-size: 16px;
     cursor: pointer;
 } */
+
+#hero-section img {
+    position: relative
+}
+
+ /* #hero-heading .row-container  */
+ .card-container {
+    position: absolute;
+    bottom: 80px;
+    left: 300px;
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping if screen is too small */
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.card {
+    border-radius: 10px;
+    padding: 16px;
+    /* width: 250px; */
+    /* flex-shrink: 0; Prevent cards from shrinking */
+    text-align: center;
+
+}
+
+.card img {
+    border-radius: 10px;
+    height: auto;
+    
+}
+
+.card h3 {
+    margin: 10px 0 5px;
+    font-size: 24px;
+    color: #dddfe4;
+}
+
+.card p {
+    margin: 0;
+    font-size: 14px;
+    color: #cdd4e0;
+}
