@@ -1,0 +1,1 @@
+Implementing a design from scratch, without any library, a web page. Using all HTML/CSS/Accessibility/Responsive design knowledges that I previously learnt.
